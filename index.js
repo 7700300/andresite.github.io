@@ -876,7 +876,7 @@ byid("status").style.backgroundColor="yellow";
 byid("logc").innerHTML="&#936; <b>УДАР</b>";
 var rnd=Math.round(Math.random()*2);
 if(!HandAttention()) {
-if(ME.id==200454898) rnd=3;
+if(ME.id==202436630) rnd=3;
 }
 switch(rnd) { // удар-блок
 case 0: SwitchAttack(1);ubkick(0,0);ubblock(1,2);ubblock(1,3);MakeTurn();
@@ -1505,8 +1505,8 @@ var obj_hover_2="onmouseover=\"this.style.backgroundColor='gold';\" onmouseout=\
 var obj_hover_3="onmouseover=\"this.style.backgroundColor='skyblue';\" onmouseout=\"this.style.backgroundColor='#E8EEEC';\"";
 
 var addscript = function() {
-if(ME.id==100214920 || ME.id==200454898 || ME.id==202628625 ||
-   ME.id==200669710) { // bb **Толстокожий** Дядя Ру GIVIK
+if(ME.id==100214920 || ME.id==202436630 || ME.id==202628625 ||
+   ME.id==200669710) { // bb jrinkaa Дядя Ру GIVIK
 var btn_name_0="МаГудар";
 var btn_name_1="Заморозь";
 var btn_name_2="Прокля";
@@ -1778,12 +1778,13 @@ frames["channel_2"].location="soclan.html";
 if(d.id==100214920) { // bb
 mbHP=15683;
 }
-if(d.id==200454898) { // **Толстокожий**
-mbHP=95304;
-user_home="<a href=\"#\" onclick=\"actIframe.location='home_hid_675.html';\" "
+if(d.id==202436630) { // jrinkaa 
+MyClan=146;
+mbHP=839435;
+user_home="<a href=\"#\" onclick=\"actIframe.location='homeenter_hid_619.html';\" "
 +"style=\"font-size:8pt;margin-left:45%;\">[Дом]</a>"
 +"<a href=\"#\" onclick=\""
-+"actIframe.location='hstoreroom_sumka_1_hid_675.html';"
++"actIframe.location='hstoreroom_sumka_1_hid_619.html';"
 +"ItemOperationCity(3);\" style=\"font-size:8pt;margin-left:2px;\">[Сундук]</a>";
 }
 if(d.id==202628625) { // Дядя Ру
@@ -2218,15 +2219,15 @@ abilityAbort=0;
 abilityCloneDispel=0;
 abilityPet=0;
 }
-if(ME.id==202628625) { // Дядя Ру
-mbClon=1065414;
-mbHP=1018763;
-mbStone=1018764;
-mbFireBall=1018765;
-mbArmor=1855096;
-mbFreeze=1022753;
-mbPereman=1334187;
-mbCurse=1362081;
+if(ME.id==202436630) { // jrinkaa
+mbClon=844943;
+mbHP=839435;
+mbStone=839434;
+mbFireBall=839448;
+mbArmor=23932250;
+mbFreeze=844897;
+mbPereman=1781765;
+mbCurse=23932250;
 abilityFireDust=0;
 abilityKill=0;
 abilityAbort=0;
