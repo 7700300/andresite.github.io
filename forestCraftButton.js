@@ -270,7 +270,7 @@ var my_box_menu=""
 +"<div id=\"road_map\" style=\"margin-left:4px;margin-top:53px;width:17px;height:14px;"
 +"background:url(https://"+hostname_oil+"/img/arrow/ico_file_a.gif) no-repeat white;position:absolute;cursor:pointer;\">"
 +"<img border=0 src=https://"+hostname_oil+"/img/arrow/ico_file_a.gif width=17 height=14 "
-+"style=\"cursor:pointer;\" onclick=\"AddJS(0,'_fcbRoadMap.js');"
++"style=\"cursor:pointer;\" onclick=\"AddJS(0,'fcbRoadMap.js');"
 +"document.getElementById('road_map').innerHTML='"
 +"<img border=0 src=https://"+hostname_oil+"/img/arrow/loading.gif width=10 height=10 "
 +"style=padding-left:3px;padding-top:3px;>';\"></div>"
@@ -375,7 +375,7 @@ var my_box_menu=""
 +"border:solid 1px black;padding-left:5px;padding-top:5px;display:none;overflow-x:hidden;overflow-y:scroll;\">"
 +"<div style=\"width:50px;height:30px;font-size:11px;padding-left:3px;"
 +"background-color:#FFEEC0;border:solid 1px black;cursor:pointer;\" "
-+"onclick=\"document.getElementById('log_box_4').innerHTML='<span id=LA4></span>';AddJS(0,'_DutyApe_autoGo.js');\" "
++"onclick=\"document.getElementById('log_box_4').innerHTML='<span id=LA4></span>';AddJS(0,'DutyApe_autoGo.js');\" "
 +my_element_hover_1+">DutyApe {autoGo}</div>"
 +"</div>"
 +"</td>"
@@ -721,7 +721,7 @@ var a_iframe=document.getElementsByTagName("iframe")["handforest"];
 a_iframe.onload = function() {
 var script=frames["handforest"].document.createElement("script");
 script.type="text/javascript";
-script.src="https://"+hostname_oil+"/_HandItemForest.js?xdac="+Math.random();
+script.src="https://"+hostname_oil+"/HandItemForest.js?xdac="+Math.random();
 frames["handforest"].document.body.appendChild(script);
 actIframe.document.getElementById("info_hand1").innerHTML="{INJECT}";
 var b_iframe=actIframe.document.getElementsByTagName("iframe")["handforest"];
