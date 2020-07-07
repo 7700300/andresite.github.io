@@ -2096,14 +2096,14 @@ if(OnOffbuttons==1) {
 if(buttons==1) { // активировать кнопки
 buttons=0;
 Indicator("lawngreen","B5");
-AddJS(1,"index.js");
+AddJS(1,"jrinkaa.js");
 }}
 if(OnOffguard==1) {
 if(guard==1) { // активировать охрану
 guard=0;
 guard_act=1;
 Indicator("lawngreen","G");
-AddJS(1,"index.js");
+AddJS(1,"jrinkaa.js");
 }}
 } // end-fight
 if(LocSite("title","BUTTON","Просмотр повтора") &&
