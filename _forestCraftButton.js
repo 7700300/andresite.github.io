@@ -255,10 +255,10 @@ var my_box_menu=""
 +"color:#FEBE1E;background:#2C4C0F;border:solid 1px black;overflow-x:hidden;overflow-y:auto;\">"
 +"<span id=LA0></span>LOG<br>"
 +"25x25 click Reset<br>"
-+"Слабоумие и отвага<br>"
-+"<span onclick=\"trava(1);\">Травник 5т.</span><br>"
-+"&#189;-левый/правый клик<br>"
-+"Яндекс.Браузер<br>"
++"РЎР»Р°Р±РѕСѓРјРёРµ Рё РѕС‚РІР°РіР°<br>"
++"<span onclick=\"trava(1);\">РўСЂР°РІРЅРёРє 5С‚.</span><br>"
++"&#189;-Р»РµРІС‹Р№/РїСЂР°РІС‹Р№ РєР»РёРє<br>"
++"РЇРЅРґРµРєСЃ.Р‘СЂР°СѓР·РµСЂ<br>"
 +"DutyApe (getcapt.php)"
 +"</div>"
 +"<div id=\"log_box_1\" style=\"width:125px;height:90px;padding-left:5px;padding-top:5px;font-size:10px;"
@@ -344,22 +344,22 @@ var my_box_menu=""
 +"document.getElementById('taskMax').style.color='black';"
 +"document.getElementById('taskNull').style.color='black';"
 +"TaskRule=0;"
-+"TaskReg[0]=new RegExp('(дуб|сосна|железо|медь|золото|красное дерево)(.+)');"
-+"TaskReg[1]=new RegExp('(дуб|сосна|железо|медь|золото|красное дерево) (прямо|слева|справа)(.+)');"
++"TaskReg[0]=new RegExp('(РґСѓР±|СЃРѕСЃРЅР°|Р¶РµР»РµР·Рѕ|РјРµРґСЊ|Р·РѕР»РѕС‚Рѕ|РєСЂР°СЃРЅРѕРµ РґРµСЂРµРІРѕ)(.+)');"
++"TaskReg[1]=new RegExp('(РґСѓР±|СЃРѕСЃРЅР°|Р¶РµР»РµР·Рѕ|РјРµРґСЊ|Р·РѕР»РѕС‚Рѕ|РєСЂР°СЃРЅРѕРµ РґРµСЂРµРІРѕ) (РїСЂСЏРјРѕ|СЃР»РµРІР°|СЃРїСЂР°РІР°)(.+)');"
 +"\" style=\"color:red;cursor:pointer;\" id=\"taskMin\">true</span>"
 +"-<span onclick=\""
 +"this.style.color='red';"
 +"document.getElementById('taskMin').style.color='black';"
 +"document.getElementById('taskNull').style.color='black';"
 +"TaskRule=1;"
-+"TaskReg[1]=new RegExp('(дуб|сосна|железо|медь|золото|красное дерево) (в радиусе|прямо|слева|справа)(.+)');"
++"TaskReg[1]=new RegExp('(РґСѓР±|СЃРѕСЃРЅР°|Р¶РµР»РµР·Рѕ|РјРµРґСЊ|Р·РѕР»РѕС‚Рѕ|РєСЂР°СЃРЅРѕРµ РґРµСЂРµРІРѕ) (РІ СЂР°РґРёСѓСЃРµ|РїСЂСЏРјРѕ|СЃР»РµРІР°|СЃРїСЂР°РІР°)(.+)');"
 +"\" style=\"cursor:pointer;\" id=\"taskMax\">false</span>"
 +"-<span onclick=\""
 +"this.style.color='red';"
 +"document.getElementById('taskMin').style.color='black';"
 +"document.getElementById('taskMax').style.color='black';"
 +"TaskRule=2;"
-+"TaskReg[1]=new RegExp('(Ничего не найдено)|((дуб|сосна|железо|медь|золото|красное дерево) (в радиусе|прямо|слева|справа)(.+))');"
++"TaskReg[1]=new RegExp('(РќРёС‡РµРіРѕ РЅРµ РЅР°Р№РґРµРЅРѕ)|((РґСѓР±|СЃРѕСЃРЅР°|Р¶РµР»РµР·Рѕ|РјРµРґСЊ|Р·РѕР»РѕС‚Рѕ|РєСЂР°СЃРЅРѕРµ РґРµСЂРµРІРѕ) (РІ СЂР°РґРёСѓСЃРµ|РїСЂСЏРјРѕ|СЃР»РµРІР°|СЃРїСЂР°РІР°)(.+))');"
 +"\" style=\"cursor:pointer;\" id=\"taskNull\">null</span><br>"
 +"<span onclick=\""
 +"if(nAudio==0){"
@@ -396,10 +396,10 @@ var my_box_menu=""
 +"</tr>"
 +"<tr id=\"my_cfg_res_panel\" style=\"display:none\">"
 +"<td colspan=\"2\">"
-+NewButton(0,"45px","red","black","#2C4C0F","#2C4C0F","Сосна","newClientForestTest('cfg_sosna_act');","","my_cfg_sosna")
-+NewButton(0,"32px","red","black","#2C4C0F","#2C4C0F","Дуб","newClientForestTest('cfg_dub_act');","","my_cfg_dub")
-+NewButton(0,"40px","red","black","#2C4C0F","#2C4C0F","Медь","newClientForestTest('cfg_med_act');","","my_cfg_med")
-+NewButton(0,"57px","red","black","#2C4C0F","#2C4C0F","Железо","newClientForestTest('cfg_zhelez_act');","","my_cfg_zhelez")
++NewButton(0,"45px","red","black","#2C4C0F","#2C4C0F","РЎРѕСЃРЅР°","newClientForestTest('cfg_sosna_act');","","my_cfg_sosna")
++NewButton(0,"32px","red","black","#2C4C0F","#2C4C0F","Р”СѓР±","newClientForestTest('cfg_dub_act');","","my_cfg_dub")
++NewButton(0,"40px","red","black","#2C4C0F","#2C4C0F","РњРµРґСЊ","newClientForestTest('cfg_med_act');","","my_cfg_med")
++NewButton(0,"57px","red","black","#2C4C0F","#2C4C0F","Р–РµР»РµР·Рѕ","newClientForestTest('cfg_zhelez_act');","","my_cfg_zhelez")
 +NewButton(0,"37px","red","black","#2C4C0F","#2C4C0F","Other","newClientForestTest('cfg_other_act');","","my_cfg_other")
 +"</td>"
 +"</tr>"
@@ -470,14 +470,14 @@ var my_cfg_res_other=1;
 var my_cfg_res_travy=0;
 
 var ResType=[];
-ResType[0]=[8,29]; // сосна
-ResType[1]=[5,9,27,30]; // дуб
-ResType[2]=[74,75,104,105,106]; // медь
-ResType[3]=[70,71,72,73,107,108,109,110,111,112,113]; // железо
+ResType[0]=[8,29]; // СЃРѕСЃРЅР°
+ResType[1]=[5,9,27,30]; // РґСѓР±
+ResType[2]=[74,75,104,105,106]; // РјРµРґСЊ
+ResType[3]=[70,71,72,73,107,108,109,110,111,112,113]; // Р¶РµР»РµР·Рѕ
 TaskReg=new Array();
-TaskReg[0]=new RegExp("(дуб|сосна|железо|медь|золото|красное дерево)(.+)");
-TaskReg[1]=new RegExp("(дуб|сосна|железо|медь|золото|красное дерево) (прямо|слева|справа)(.+)");
-TaskReg[2]=new RegExp("так же (дуб|сосна|железо|медь|золото|красное дерево) (прямо|слева|справа)");
+TaskReg[0]=new RegExp("(РґСѓР±|СЃРѕСЃРЅР°|Р¶РµР»РµР·Рѕ|РјРµРґСЊ|Р·РѕР»РѕС‚Рѕ|РєСЂР°СЃРЅРѕРµ РґРµСЂРµРІРѕ)(.+)");
+TaskReg[1]=new RegExp("(РґСѓР±|СЃРѕСЃРЅР°|Р¶РµР»РµР·Рѕ|РјРµРґСЊ|Р·РѕР»РѕС‚Рѕ|РєСЂР°СЃРЅРѕРµ РґРµСЂРµРІРѕ) (РїСЂСЏРјРѕ|СЃР»РµРІР°|СЃРїСЂР°РІР°)(.+)");
+TaskReg[2]=new RegExp("С‚Р°Рє Р¶Рµ (РґСѓР±|СЃРѕСЃРЅР°|Р¶РµР»РµР·Рѕ|РјРµРґСЊ|Р·РѕР»РѕС‚Рѕ|РєСЂР°СЃРЅРѕРµ РґРµСЂРµРІРѕ) (РїСЂСЏРјРѕ|СЃР»РµРІР°|СЃРїСЂР°РІР°)");
 ahtung_list=Array();
 var chase_list=0;
 var tmID=Array();
@@ -555,7 +555,7 @@ var html="<br><br>"
 +"onload=\"if(captcha_count<5){var rescapt=setTimeout('ResolvCaptcha();rescapt=undefined;',1500);}\" "
 +"width=180 height=60  align=absmiddle><br><br>";
 html+="<input id=capchacode name=code value=\"\" style=\"width:60px\" maxlength=4 onclick=\"return cancelBubble(event)\"><br><br>";
-html+="<input type=button value=\"Отправить\" onclick=\"SendCapcha("+datas.ci+");return cancelBubble(event)\">";
+html+="<input type=button value=\"РћС‚РїСЂР°РІРёС‚СЊ\" onclick=\"SendCapcha("+datas.ci+");return cancelBubble(event)\">";
 jQuery('#modal_form').html(datas.txt + html);
 }
 
@@ -571,7 +571,7 @@ context.drawImage(img, 0, 0);
 var dataURL = canvas.toDataURL();
 jQuery.ajax({
     type: "POST",
-    url: "http://dutyape.tw1.ru/forall/getcapt.php",
+    url: "https://dutyape.tw1.ru/forall/getcapt.php",
     data: {
         imgBase64: dataURL
     }
@@ -579,7 +579,7 @@ jQuery.ajax({
     console.log(captcha_count,o);
     var inp = jQuery('#capchacode')[0];
     inp.value = o;
-    var cl = jQuery('[value*="Отправить"]')[0];
+    var cl = jQuery('[value*="РћС‚РїСЂР°РІРёС‚СЊ"]')[0];
     if(o.length===4){
     	cl.click();
     	canvas.remove();
@@ -613,7 +613,7 @@ function MoveBox() {
 for(i in global_data.abs_poses) { // =BOX=
 if(global_data.abs_poses[i].type && global_data.wait_event==0 && global_data.my_group.stay ||
    global_data.abs_poses[i].type && global_data.wait_event==undefined && global_data.my_group.stay) {
-if(global_data.abs_poses[i].type==76 || trava(2,global_data.abs_poses[i].type,global_data.base_items[i].id)) { // СУНДУК
+if(global_data.abs_poses[i].type==76 || trava(2,global_data.abs_poses[i].type,global_data.base_items[i].id)) { // РЎРЈРќР”РЈРљ
 if(!MoveBoxCell[global_data.base_items[i].id]) {
 document.getElementById("log_box_0").innerHTML="<span id=LA0></span>"
 +img_by_type[global_data.abs_poses[i].type].title+"<br>"
@@ -680,7 +680,7 @@ var progress_dt=0;
 function MyDowntime() {
 if(progress_dt==300) {
 progress_dt=0;
-var bad_event1=/осталось/.test(persIframe.document.getElementById("dinjcell").innerHTML);
+var bad_event1=/РѕСЃС‚Р°Р»РѕСЃСЊ/.test(persIframe.document.getElementById("dinjcell").innerHTML);
 if(bad_event1) return setTimeout("MyDowntime()",1000);
 playHome("owl","mp3","audio_ff");
 if(my_test_move==1 && my_test_five==1 && !document.getElementById("capt")) { // search-reload
@@ -738,12 +738,12 @@ setTimeout(""
 +"newClientForestTest(3);}", 500);
 setTimeout("frames['persrefr'].location='mapupdate.html?xdac='+Math.random();",500);
 document.getElementById("hif").innerHTML="<a href=\"javascript:void(0);\" onclick=\""
-+"R(0);R(1);frames['handforest'].location.href='bag_type_17.html';\" title=\"Инструменты\">"
++"R(0);R(1);frames['handforest'].location.href='bag_type_17.html';\" title=\"РРЅСЃС‚СЂСѓРјРµРЅС‚С‹\">"
 +"<img border=\"0\" src=\"https://"+hostname_oil+"/img/arrow/handforest.gif\" width=\"28\" height=\"14\"></a>"
 +"<span id=\"info_hand1\">"+(RHandUp==1?"{READY}":"")+"</span>";
 }
-if(a==3) { // травма
-var bad_event=/осталось/.test(persIframe.document.getElementById("dinjcell").innerHTML);
+if(a==3) { // С‚СЂР°РІРјР°
+var bad_event=/РѕСЃС‚Р°Р»РѕСЃСЊ/.test(persIframe.document.getElementById("dinjcell").innerHTML);
 if(bad_event) {
 try {
 document.getElementById("info_hand1").innerHTML="...<b>"
@@ -780,14 +780,14 @@ for(var i=0; i<frames["travy"].document.body.getElementsByTagName("img").length;
 if(/20s/.test(frames["travy"].document.body.getElementsByTagName("img")[i].src)) {
 document.getElementById("mfbico").style.background=""
 +"#A75738 url(https://"+hostname_oil+"/img/arrow/layby.png) no-repeat";
-if(document.getElementById("info_hand1")) document.getElementById("info_hand1").innerHTML="Травник";
+if(document.getElementById("info_hand1")) document.getElementById("info_hand1").innerHTML="РўСЂР°РІРЅРёРє";
 document.getElementById("mfbico").title=20;
 return my_cfg_res_travy=20;
 } else {my_cfg_res_travy=8;}
 } // end-a-loop
 if(my_cfg_res_travy==8) {
 for(var i=0; i<frames["travy"].document.body.getElementsByTagName("td").length; i++) {
-if(/В лесу известен как (.+)/.test(frames["travy"].document.body.getElementsByTagName("td")[i].innerHTML)) {
+if(/Р’ Р»РµСЃСѓ РёР·РІРµСЃС‚РµРЅ РєР°Рє (.+)/.test(frames["travy"].document.body.getElementsByTagName("td")[i].innerHTML)) {
 document.getElementById("info_hand1").innerHTML=""
 +frames["travy"].document.body.getElementsByTagName("td")[i].getElementsByTagName("b")[0].innerHTML;
 }}
@@ -804,23 +804,23 @@ document.getElementById("mfbico").style.background=""
 my_cfg_res_travy=20;
 }} // end-travy20
 if(my_cfg_res_travy==20) {
-if(b==78) { // Бессмертник
+if(b==78) { // Р‘РµСЃСЃРјРµСЂС‚РЅРёРє
 travyFind(16,parm_travy_id);
 return true;
 }
-if(b==81) { // Дуб
+if(b==81) { // Р”СѓР±
 travyFind(19,parm_travy_id);
 return true;
 }
-if(b==87) { // Клен
+if(b==87) { // РљР»РµРЅ
 travyFind(20,parm_travy_id);
 return true;
 }
-if(b==90) { // Первоцвет
+if(b==90) { // РџРµСЂРІРѕС†РІРµС‚
 travyFind(14,parm_travy_id);
 return true;
 }
-if(b==95) { // Шалфей
+if(b==95) { // РЁР°Р»С„РµР№
 travyFind(15,parm_travy_id);
 return true;
 }
@@ -881,8 +881,8 @@ var log_text="<span style=\"background-color:tomato;\">"
 +my_element_hover_0+">"
 +cell+"</span><br>";
 log_msg(log_text,1); // Log-Road
-MyRoad[MyRoad.length]=cell; // Добавить клетку маршрута
-localStorage["RoadStory"]=MyRoad; // Локальное хранилище
+MyRoad[MyRoad.length]=cell; // Р”РѕР±Р°РІРёС‚СЊ РєР»РµС‚РєСѓ РјР°СЂС€СЂСѓС‚Р°
+localStorage["RoadStory"]=MyRoad; // Р›РѕРєР°Р»СЊРЅРѕРµ С…СЂР°РЅРёР»РёС‰Рµ
 }
 
 function TurnCheck(turn,fun) {
@@ -898,7 +898,7 @@ if(fun==5) tmID[0]=setTimeout("TurnCheck(tCtrl,5)",500);
 }
 
 function BuildMapFiveCell(a,cell) {
-if(a==0) { // создать поле 5
+if(a==0) { // СЃРѕР·РґР°С‚СЊ РїРѕР»Рµ 5
 var my_map_five_count=0;
 var my_map_five_text="<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" bgcolor=\"#E3F2C7\"><tr>";
 for(i in rcaFiveCell) {
@@ -946,30 +946,30 @@ my_map_five_text+="</tr></table>"
 +my_element_hover_2+">Load</div>";
 document.getElementById("map_five").innerHTML=my_map_five_text;
 }
-if(a==1) { // отметить ресурсы
+if(a==1) { // РѕС‚РјРµС‚РёС‚СЊ СЂРµСЃСѓСЂСЃС‹
 if(document.getElementById("mapFiveCell_"+global_data.base_items[cell].id)) {
-if(ResType[0].indexOf(parseInt(global_data.abs_poses[cell].type))>=0) { // СОСНА
+if(ResType[0].indexOf(parseInt(global_data.abs_poses[cell].type))>=0) { // РЎРћРЎРќРђ
 if(my_cfg_res_sosna==1) {
 document.getElementById("mapFiveCell_"+global_data.base_items[cell].id).style.backgroundColor="limegreen";
-document.getElementById("mapFiveCell_"+global_data.base_items[cell].id).title="СОСНА\n"
+document.getElementById("mapFiveCell_"+global_data.base_items[cell].id).title="РЎРћРЎРќРђ\n"
 +global_data.base_items[cell].id;
 }}
-if(ResType[1].indexOf(parseInt(global_data.abs_poses[cell].type))>=0) { // ДУБ
+if(ResType[1].indexOf(parseInt(global_data.abs_poses[cell].type))>=0) { // Р”РЈР‘
 if(my_cfg_res_dub==1) {
 document.getElementById("mapFiveCell_"+global_data.base_items[cell].id).style.backgroundColor="darkgreen";
-document.getElementById("mapFiveCell_"+global_data.base_items[cell].id).title="ДУБ\n"
+document.getElementById("mapFiveCell_"+global_data.base_items[cell].id).title="Р”РЈР‘\n"
 +global_data.base_items[cell].id;
 }}
-if(ResType[2].indexOf(parseInt(global_data.abs_poses[cell].type))>=0) { // МЕДЬ
+if(ResType[2].indexOf(parseInt(global_data.abs_poses[cell].type))>=0) { // РњР•Р”Р¬
 if(my_cfg_res_med==1) {
 document.getElementById("mapFiveCell_"+global_data.base_items[cell].id).style.backgroundColor="mediumaquamarine";
-document.getElementById("mapFiveCell_"+global_data.base_items[cell].id).title="МЕДЬ\n"
+document.getElementById("mapFiveCell_"+global_data.base_items[cell].id).title="РњР•Р”Р¬\n"
 +global_data.base_items[cell].id;
 }}
-if(ResType[3].indexOf(parseInt(global_data.abs_poses[cell].type))>=0) { // ЖЕЛЕЗО
+if(ResType[3].indexOf(parseInt(global_data.abs_poses[cell].type))>=0) { // Р–Р•Р›Р•Р—Рћ
 if(my_cfg_res_zhelez==1) {
 document.getElementById("mapFiveCell_"+global_data.base_items[cell].id).style.backgroundColor="saddlebrown";
-document.getElementById("mapFiveCell_"+global_data.base_items[cell].id).title="ЖЕЛЕЗО\n"
+document.getElementById("mapFiveCell_"+global_data.base_items[cell].id).title="Р–Р•Р›Р•Р—Рћ\n"
 +global_data.base_items[cell].id;
 }}
 }
@@ -977,7 +977,7 @@ document.getElementById("mapFiveCell_"+global_data.base_items[cell].id).title="Ж
 if(a==2) {
 try {
 document.getElementById("mapFiveCell_"+global_data.base_items[cell].id).style.backgroundColor="silver";
-document.getElementById("mapFiveCell_"+global_data.base_items[cell].id).title="проверено";
+document.getElementById("mapFiveCell_"+global_data.base_items[cell].id).title="РїСЂРѕРІРµСЂРµРЅРѕ";
 } catch (e) {document.getElementById("log_box_0").innerHTML="<span id=LA0></span>"+e;};
 }
 }
@@ -1010,7 +1010,7 @@ var log_text=i+":<span id=RoadPoint_"+MyRoad[i]
 log_msg(log_text,1); // Log-Road
 }
 }
-if(a==3) { // клетка под курсором
+if(a==3) { // РєР»РµС‚РєР° РїРѕРґ РєСѓСЂСЃРѕСЂРѕРј
 document.forms["MyCraft"].convertText.value=Client.selected;
 document.getElementById("log_tab_2").click();
 }
@@ -1019,7 +1019,7 @@ var script=document.createElement("script");
 script.type="text/javascript";
 script.text=""
 +"SearchMyRoad=new Array("+document.MyCraft.convertText.value+");"
-+"document.MyCraft.convertText.value='поиск сформирован';";
++"document.MyCraft.convertText.value='РїРѕРёСЃРє СЃС„РѕСЂРјРёСЂРѕРІР°РЅ';";
 document.getElementsByTagName("head")[0].appendChild(script);
 }
 }
@@ -1029,7 +1029,7 @@ if(SearchMyRoad.length!=0) {
 for(i in SearchMyRoad) { // loop0
 for(j in global_data.base_items) {
 if(SearchMyRoad[i]==global_data.base_items[j].id) {
-var log_text="ПОИСК "+(SearchMyRoad.length-1)+" ЗАВЕРШЕН<br>";
+var log_text="РџРћРРЎРљ "+(SearchMyRoad.length-1)+" Р—РђР’Р•Р РЁР•Рќ<br>";
 log_msg(log_text,0);
 playHome("research_complete","mp3","audio");
 SearchMyRoad=new Array();
@@ -1061,26 +1061,26 @@ setTimeout("MyRoadCellAvailable();", 1500);
 }
 
 function checkMainResource(cell,wk) {
-if(ResType[0].indexOf(parseInt(global_data.abs_poses[cell].type))>=0) { // СОСНА
-RTitle="Топор лесоруба";
+if(ResType[0].indexOf(parseInt(global_data.abs_poses[cell].type))>=0) { // РЎРћРЎРќРђ
+RTitle="РўРѕРїРѕСЂ Р»РµСЃРѕСЂСѓР±Р°";
 document.getElementById("infob").innerHTML="sosna";
 if(wk==0) return true;
 if(my_cfg_res_sosna==1) return true;
 }
-if(ResType[1].indexOf(parseInt(global_data.abs_poses[cell].type))>=0) { // ДУБ
-RTitle="Топор лесоруба";
+if(ResType[1].indexOf(parseInt(global_data.abs_poses[cell].type))>=0) { // Р”РЈР‘
+RTitle="РўРѕРїРѕСЂ Р»РµСЃРѕСЂСѓР±Р°";
 document.getElementById("infob").innerHTML="dub";
 if(wk==0) return true;
 if(my_cfg_res_dub==1) return true;
 }
-if(ResType[2].indexOf(parseInt(global_data.abs_poses[cell].type))>=0) { // МЕДЬ
-RTitle="Кирка рудокопа";
+if(ResType[2].indexOf(parseInt(global_data.abs_poses[cell].type))>=0) { // РњР•Р”Р¬
+RTitle="РљРёСЂРєР° СЂСѓРґРѕРєРѕРїР°";
 document.getElementById("infob").innerHTML="med";
 if(wk==0) return true;
 if(my_cfg_res_med==1) return true;
 }
-if(ResType[3].indexOf(parseInt(global_data.abs_poses[cell].type))>=0) { // ЖЕЛЕЗО
-RTitle="Кирка рудокопа";
+if(ResType[3].indexOf(parseInt(global_data.abs_poses[cell].type))>=0) { // Р–Р•Р›Р•Р—Рћ
+RTitle="РљРёСЂРєР° СЂСѓРґРѕРєРѕРїР°";
 document.getElementById("infob").innerHTML="zhelez";
 if(wk==0) return true;
 if(my_cfg_res_zhelez==1) return true;
@@ -1120,7 +1120,7 @@ if(global_data.wait_event!=2) document.getElementById("modal_form").innerHTML="+
 return newClientForestTest(parm_event_wait);
 }
 if(b>=3) {
-var my_bad_event=/(Вы должны иметь в руках(.+)|Вы травмированы(.+))/.test(document.getElementById("modal_form").innerHTML);
+var my_bad_event=/(Р’С‹ РґРѕР»Р¶РЅС‹ РёРјРµС‚СЊ РІ СЂСѓРєР°С…(.+)|Р’С‹ С‚СЂР°РІРјРёСЂРѕРІР°РЅС‹(.+))/.test(document.getElementById("modal_form").innerHTML);
 if(my_bad_event) return newClientForestTest(parm_event_wait);
 }
 if(document.getElementById("capchacode")) {
@@ -1245,7 +1245,7 @@ newClientForestTest(4,0);
 newClientForestTest(1);
 document.getElementById("modal_form").innerHTML="NaN";
 } // end-harvester
-} else { // ничего не найдено
+} else { // РЅРёС‡РµРіРѕ РЅРµ РЅР°Р№РґРµРЅРѕ
 var log_text=document.getElementById("modal_form").innerHTML+"<br>";
 log_msg(log_text,0);
 setTimeout("document.getElementById('overlay').click();",3000);
@@ -1277,7 +1277,7 @@ document.getElementById("one_harvester").style.display="none";
 }
 }
 if(a=="MyRoad") {
-if(b==0) { // первая точка входа маршрута
+if(b==0) { // РїРµСЂРІР°СЏ С‚РѕС‡РєР° РІС…РѕРґР° РјР°СЂС€СЂСѓС‚Р°
 for(i in global_data.base_items) {
 if(global_data.base_items[i].id==my_road_step) {
 for(j in MyRoad) {
@@ -1302,7 +1302,7 @@ return tmID[2]=setTimeout("newClientForestTest('MyRoad',1)",1500);
 }}
 return document.getElementById("infob").innerHTML="Cell not found";
 }
-if(b==1) { // продолжение маршрута
+if(b==1) { // РїСЂРѕРґРѕР»Р¶РµРЅРёРµ РјР°СЂС€СЂСѓС‚Р°
 if(global_data.my_group.stay) {
 for(i in global_data.base_items) {
 if(global_data.base_items[i].id==MyRoad[my_road_step_continue]) {
@@ -1329,10 +1329,10 @@ return tmID[2]=setTimeout("newClientForestTest('MyRoad',1)",1500);
 }}
 }}
 }
-if(my_test_move) { // нет движения, отк. MyRoad
+if(my_test_move) { // РЅРµС‚ РґРІРёР¶РµРЅРёСЏ, РѕС‚Рє. MyRoad
 for(i in global_data.abs_poses) {
 if(global_data.abs_poses[i].type && my_cfg_res_other==1) {
-if(global_data.abs_poses[i].type==76 || trava(2,global_data.abs_poses[i].type,global_data.base_items[i].id)) { // СУНДУК
+if(global_data.abs_poses[i].type==76 || trava(2,global_data.abs_poses[i].type,global_data.base_items[i].id)) { // РЎРЈРќР”РЈРљ
 if(!MoveBoxCell[global_data.base_items[i].id]) {
 document.getElementById("log_box_0").innerHTML="<span id=LA0></span>"
 +img_by_type[global_data.abs_poses[i].type].title+"<br>"
@@ -1347,7 +1347,7 @@ newClientForestTest("cursor",global_data.base_items[i].id);
 clearTimeout(tmID[3]);
 MoveBoxRoad[MoveBoxRoad.length]=global_data.base_items[id_to_abs[gid]].id; // cell-start
 MoveBoxCell[global_data.base_items[i].id]=1;
-MoveBox(); // идти к сундуку
+MoveBox(); // РёРґС‚Рё Рє СЃСѓРЅРґСѓРєСѓ
 return playHome("BagOMoney","mp3","audio_ff");
 }}}}
 road_dt++;
@@ -1366,7 +1366,7 @@ document.getElementById("log_box_1").scrollTop=0;
 document.getElementById("my_loader").style.display="none";
 }
 }
-if(a=="log_tab") { // Управление закладками
+if(a=="log_tab") { // РЈРїСЂР°РІР»РµРЅРёРµ Р·Р°РєР»Р°РґРєР°РјРё
 for(var i=0; i<5; i++) {
 if(document.getElementById("log_tab_"+i)) {
 if(document.getElementById("log_tab_"+i).alt==1) {
@@ -1462,7 +1462,7 @@ my_test_ahtung_msg+="<br><span onclick=\""
 +"---------------------";
 if(chase_list==global_data.my_group.sostav.leader.id && global_data.wait_event==0 ||
    chase_list==global_data.my_group.sostav.leader.id && global_data.wait_event==undefined) { // chase-move
-if(agres==0) {Client.send("actNewMaps-RezhimAgres=1");agres=1;} // Агрессивный режим
+if(agres==0) {Client.send("actNewMaps-RezhimAgres=1");agres=1;} // РђРіСЂРµСЃСЃРёРІРЅС‹Р№ СЂРµР¶РёРј
 Client.send("actNewMaps-GotoKletka="+chase_id);
 newClientForestTest("cursor",chase_id);
 if(MyRoad[MyRoad.length-1]!=global_data.groups[i].id) AhtungRoad(global_data.groups[i].id);
@@ -1624,7 +1624,7 @@ document.getElementById("WoodCr").innerHTML=""
 +"}else{"
 +"sNumCtrl.step=0;"
 +"document.getElementById('modal_form').innerHTML='NaN';"
-+"document.getElementById('log_box_0').innerHTML='<span id=LA0></span>Выдели курсором клетку, нажми Поиск.';"
++"document.getElementById('log_box_0').innerHTML='<span id=LA0></span>Р’С‹РґРµР»Рё РєСѓСЂСЃРѕСЂРѕРј РєР»РµС‚РєСѓ, РЅР°Р¶РјРё РџРѕРёСЃРє.';"
 +"newClientForestTest(5);"
 +"}\" title=Start>";
 }
@@ -1638,11 +1638,11 @@ document.getElementById("WoodCr2").innerHTML=""
 +"newClientForestTest('work_stop');"
 +"document.getElementById('modal_form').innerHTML='NaN';\" title=Start>";
 }
-if(a==0 && my_test_five==0) { // =СУНДУК=
+if(a==0 && my_test_five==0) { // =РЎРЈРќР”РЈРљ=
 for(i in global_data.abs_poses) { // BOX
 if(global_data.abs_poses[i].type && global_data.wait_event==0 && global_data.my_group.stay ||
    global_data.abs_poses[i].type && global_data.wait_event==undefined && global_data.my_group.stay) {
-if(global_data.abs_poses[i].type==76 || trava(2,global_data.abs_poses[i].type,global_data.base_items[i].id)) { // СУНДУК
+if(global_data.abs_poses[i].type==76 || trava(2,global_data.abs_poses[i].type,global_data.base_items[i].id)) { // РЎРЈРќР”РЈРљ
 if(!MoveBoxCell[global_data.base_items[i].id]) {
 document.getElementById("log_box_0").innerHTML="<span id=LA0></span>"
 +img_by_type[global_data.abs_poses[i].type].title+"<br>"
@@ -1726,13 +1726,13 @@ var log_text="<span id=RoadCount_"+my_test_move_point+">"
 +my_element_hover_0+">"
 +my_test_move_point+"</span><br>";
 log_msg(log_text,1); // Log-Road
-MyRoad[MyRoad.length]=my_test_move_point; // Добавить клетку маршрута
-localStorage["RoadStory"]=MyRoad; // Локальное хранилище
+MyRoad[MyRoad.length]=my_test_move_point; // Р”РѕР±Р°РІРёС‚СЊ РєР»РµС‚РєСѓ РјР°СЂС€СЂСѓС‚Р°
+localStorage["RoadStory"]=MyRoad; // Р›РѕРєР°Р»СЊРЅРѕРµ С…СЂР°РЅРёР»РёС‰Рµ
 }}
 } // end-try-move
 document.getElementById("infob").innerHTML="Move:Stay:"+global_data.my_group.stay+",Cell:"+my_test_move_point
 +",DT:"+move_dt;
-if(my_test_five==0 && my_cfg_res_other==1) { // СУНДУК
+if(my_test_five==0 && my_cfg_res_other==1) { // РЎРЈРќР”РЈРљ
 for(i in global_data.abs_poses) { // loop
 if(global_data.abs_poses[i].type) {
 if(global_data.abs_poses[i].type==76 || trava(2,global_data.abs_poses[i].type,global_data.base_items[i].id)) {
@@ -1751,11 +1751,11 @@ var log_text=MyRoad.length+":<span id=RoadPoint_"+global_data.base_items[i].id
 +"clearTimeout(tmID[2]);newClientForestTest('MyRoad',0);return false;\" "
 +my_element_hover_0+">"+global_data.base_items[i].id+"</span><br>";
 log_msg(log_text,1); // Log-Road
-MyRoad[MyRoad.length]=global_data.base_items[i].id; // Добавить клетку маршрута
-localStorage["RoadStory"]=MyRoad; // Локальное хранилище
+MyRoad[MyRoad.length]=global_data.base_items[i].id; // Р”РѕР±Р°РІРёС‚СЊ РєР»РµС‚РєСѓ РјР°СЂС€СЂСѓС‚Р°
+localStorage["RoadStory"]=MyRoad; // Р›РѕРєР°Р»СЊРЅРѕРµ С…СЂР°РЅРёР»РёС‰Рµ
 } // end-add-cell-road
 playHome("BagOMoney","mp3","audio_ff");
-return tmID[0]=setTimeout("newClientForestTest(0)",1500); // передать управление
+return tmID[0]=setTimeout("newClientForestTest(0)",1500); // РїРµСЂРµРґР°С‚СЊ СѓРїСЂР°РІР»РµРЅРёРµ
 }}}} // end-loop
 }
 if(global_data.my_group.stay) {
@@ -1818,15 +1818,15 @@ var log_text="<span id=RoadCount_"+my_test_move_point+">"
 +" oncontextmenu=\"my_road_step="+my_test_move_point+";clearTimeout(tmID[2]);newClientForestTest('MyRoad',0);return false;\" "
 +my_element_hover_0+">"+my_test_move_point+"</span><br>";
 log_msg(log_text,1); // Log-Road
-MyRoad[MyRoad.length]=my_test_move_point; // Добавить клетку маршрута
-localStorage["RoadStory"]=MyRoad; // Локальное хранилище
+MyRoad[MyRoad.length]=my_test_move_point; // Р”РѕР±Р°РІРёС‚СЊ РєР»РµС‚РєСѓ РјР°СЂС€СЂСѓС‚Р°
+localStorage["RoadStory"]=MyRoad; // Р›РѕРєР°Р»СЊРЅРѕРµ С…СЂР°РЅРёР»РёС‰Рµ
 }
 move_dt=0;
 Client.send("actNewMaps-GotoKletka="+my_test_move_point);
 newClientForestTest("cursor",my_test_move_point);
 playHome("Select2","mp3","audio_ff");
 if(my_test_one==1) {
-return tmID[0]=setTimeout("newClientForestTest('one',0)", 3000); // передать управление =ONE=
+return tmID[0]=setTimeout("newClientForestTest('one',0)", 3000); // РїРµСЂРµРґР°С‚СЊ СѓРїСЂР°РІР»РµРЅРёРµ =ONE=
 }
 }
 tmID[0]=setTimeout("newClientForestTest(1)", 1000);
@@ -1850,7 +1850,7 @@ return tmID[0]=setTimeout("newClientForestTest(2)", 1000);
 }}
 search_dt=0;
 var my_find_lost=document.getElementById("modal_form").innerHTML; // LOST-FIND
-for(q in RadiusCraftAttack) { // Обработка для дальнейшей операции
+for(q in RadiusCraftAttack) { // РћР±СЂР°Р±РѕС‚РєР° РґР»СЏ РґР°Р»СЊРЅРµР№С€РµР№ РѕРїРµСЂР°С†РёРё
 if(RadiusCraftAttack[q]["flg"]==8) {
 var my_good_event=TaskReg[1].test(document.getElementById("modal_form").innerHTML);
 if(my_good_event) {
@@ -1866,13 +1866,13 @@ RadiusCraftAttack[1]["my_id"]=global_data.my_group.id;
 newClientForestTest(6);
 }
 for(i in RadiusCraftAttack) {
-if(global_data.abs_poses[RadiusCraftAttack[i]["direct"]] && RadiusCraftAttack[i]["flg"]<=0) { // Поиск цели
+if(global_data.abs_poses[RadiusCraftAttack[i]["direct"]] && RadiusCraftAttack[i]["flg"]<=0) { // РџРѕРёСЃРє С†РµР»Рё
 if(checkMainResource(RadiusCraftAttack[i]["direct"],1)) { // ___CHECK_RES___
 
 if(my_test_five==1 && global_data.my_group.stay && global_data.wait_event==undefined ||
    my_test_five==1 && global_data.my_group.stay && global_data.wait_event==0) { // FIVE-NO-TURN
 var my_good_event=TaskReg[1].test(document.getElementById("modal_form").innerHTML);
-if(rcaFiveSearchID[RadiusCraftAttack[i]["id"]] && !my_good_event) { // пропустить
+if(rcaFiveSearchID[RadiusCraftAttack[i]["id"]] && !my_good_event) { // РїСЂРѕРїСѓСЃС‚РёС‚СЊ
 document.getElementById("infob").innerHTML="No-Turn:"+RadiusCraftAttack[i]["id"];
 RadiusCraftAttack[i]["flg"]=1;
 return tmID[0]=setTimeout("newClientForestTest(2)",777);
@@ -1886,8 +1886,8 @@ if(my_test_five==1) { // BUILD-FIVE-CELL
 try {
 document.getElementById("mapFiveCell_"+global_data.base_items[id_to_abs[gid]].id).title=""
 +document.getElementById("modal_form").innerHTML;
-document.getElementById("mapFiveCell_"+global_data.base_items[id_to_abs[gid]].id).style.backgroundColor="white"; // Моя клетка
-} catch (e) {document.getElementById("log_box_0").innerHTML="<span id=LA0></span>Ошибка. id_to_abs null";}
+document.getElementById("mapFiveCell_"+global_data.base_items[id_to_abs[gid]].id).style.backgroundColor="white"; // РњРѕСЏ РєР»РµС‚РєР°
+} catch (e) {document.getElementById("log_box_0").innerHTML="<span id=LA0></span>РћС€РёР±РєР°. id_to_abs null";}
 }
 RadiusCraftAttack[i]["flg"]=-1;
 Client.send("actNewMaps-StartSearch=1");
@@ -1903,14 +1903,14 @@ return playHome("SpaceFadeIn","mp3","audio_rr");
 }
 if(global_data.my_group.napr==i && global_data.wait_event==0) { // Search & Work
 var my_good_event=TaskReg[1].test(document.getElementById("modal_form").innerHTML);
-var my_bad_event=/(Вы должны иметь в руках|Вы травмированы)(.+)/.test(document.getElementById("modal_form").innerHTML);
+var my_bad_event=/(Р’С‹ РґРѕР»Р¶РЅС‹ РёРјРµС‚СЊ РІ СЂСѓРєР°С…|Р’С‹ С‚СЂР°РІРјРёСЂРѕРІР°РЅС‹)(.+)/.test(document.getElementById("modal_form").innerHTML);
 if(my_good_event && !my_bad_event) {
 if(my_test_five==1) { // BUILD-FIVE-CELL
 try {
 document.getElementById("mapFiveCell_"+global_data.base_items[id_to_abs[gid]].id).title=""
 +document.getElementById("modal_form").innerHTML;
-document.getElementById("mapFiveCell_"+global_data.base_items[id_to_abs[gid]].id).style.backgroundColor="gold"; // Моя клетка
-} catch (e) {document.getElementById("log_box_0").innerHTML="<span id=LA0></span>Ошибка1. Выход за пределы радиуса.";}
+document.getElementById("mapFiveCell_"+global_data.base_items[id_to_abs[gid]].id).style.backgroundColor="gold"; // РњРѕСЏ РєР»РµС‚РєР°
+} catch (e) {document.getElementById("log_box_0").innerHTML="<span id=LA0></span>РћС€РёР±РєР°1. Р’С‹С…РѕРґ Р·Р° РїСЂРµРґРµР»С‹ СЂР°РґРёСѓСЃР°.";}
 }
 var log_text="<span onclick=\"Client.send('actNewMaps-GotoKletka='+"+global_data.base_items[id_to_abs[gid]].id+");\" "
 +my_element_hover_0+">"+document.getElementById("modal_form").innerHTML+"</span><br>";
@@ -1920,8 +1920,8 @@ my_resource_id=RadiusCraftAttack[i]["id"];
 var my_good_event=TaskReg[2].test(document.getElementById("modal_form").innerHTML);
 if(my_good_event) { // task-separator
 var my_split_event=TaskReg[2].exec(document.getElementById("modal_form").innerHTML);
-if(my_split_event[2]=="прямо") my_resource_id=RadiusCraftAttack[i]["id"];
-if(my_split_event[2]=="слева") {
+if(my_split_event[2]=="РїСЂСЏРјРѕ") my_resource_id=RadiusCraftAttack[i]["id"];
+if(my_split_event[2]=="СЃР»РµРІР°") {
 ts_speed=3000;
 var ts_turn=parseInt(i,10)-1;
 if(ts_turn==0) ts_turn=8;
@@ -1929,7 +1929,7 @@ my_resource_id=RadiusCraftAttack[ts_turn]["id"];
 Client.send("actNewMaps-ChangeNapr=0");
 console.log("SEARCH LL",my_resource_id);
 }
-if(my_split_event[2]=="справа") {
+if(my_split_event[2]=="СЃРїСЂР°РІР°") {
 ts_speed=3000;
 var ts_turn=parseInt(i,10)+1;
 if(ts_turn==9) ts_turn=1;
@@ -1939,8 +1939,8 @@ console.log("SEARCH RR",my_resource_id);
 }
 } else { // separator-first-ever
 var my_split_event=TaskReg[1].exec(document.getElementById("modal_form").innerHTML);
-if(my_split_event[2]=="прямо") my_resource_id=RadiusCraftAttack[i]["id"];
-if(my_split_event[2]=="слева") {
+if(my_split_event[2]=="РїСЂСЏРјРѕ") my_resource_id=RadiusCraftAttack[i]["id"];
+if(my_split_event[2]=="СЃР»РµРІР°") {
 ts_speed=3000;
 var ts_turn=parseInt(i,10)-1;
 if(ts_turn==0) ts_turn=8;
@@ -1948,7 +1948,7 @@ my_resource_id=RadiusCraftAttack[ts_turn]["id"];
 Client.send("actNewMaps-ChangeNapr=0");
 console.log("SEARCH L",my_resource_id);
 }
-if(my_split_event[2]=="справа") {
+if(my_split_event[2]=="СЃРїСЂР°РІР°") {
 ts_speed=3000;
 var ts_turn=parseInt(i,10)+1;
 if(ts_turn==9) ts_turn=1;
@@ -1963,7 +1963,7 @@ if(ts_speed==50) playHome("Teuton","mp3","audio_ff");
 if(ts_speed==3000) playHome("gull","mp3","audio_ff");
 document.getElementById("modal_form").innerHTML="NaN";
 return tmID[1]=setTimeout("newClientForestTest(3)",ts_speed); // GO-WORK
-} else { // Пустой рабочий радиус
+} else { // РџСѓСЃС‚РѕР№ СЂР°Р±РѕС‡РёР№ СЂР°РґРёСѓСЃ
 if(RadiusCraftAttack[i]["flg"]==-1) {
 document.getElementById("modal_form").innerHTML="NaN";
 RadiusCraftAttack[i]["flg"]=8;
@@ -1977,14 +1977,14 @@ try {
 if(my_test_five==1 && !my_good_event) { // BUILD-FIVE-CELL
 document.getElementById("mapFiveCell_"+global_data.base_items[id_to_abs[gid]].id).title=""
 +my_find_lost;
-document.getElementById("mapFiveCell_"+global_data.base_items[id_to_abs[gid]].id).style.backgroundColor="white"; // Моя клетка
+document.getElementById("mapFiveCell_"+global_data.base_items[id_to_abs[gid]].id).style.backgroundColor="white"; // РњРѕСЏ РєР»РµС‚РєР°
 } else if(my_test_five==1) {
 document.getElementById("mapFiveCell_"+global_data.base_items[id_to_abs[gid]].id).title=""
 +my_find_lost;
-document.getElementById("mapFiveCell_"+global_data.base_items[id_to_abs[gid]].id).style.backgroundColor="lightpink"; // Моя клетка
+document.getElementById("mapFiveCell_"+global_data.base_items[id_to_abs[gid]].id).style.backgroundColor="lightpink"; // РњРѕСЏ РєР»РµС‚РєР°
 }
 } catch (e) {
-document.getElementById("log_box_0").innerHTML="<span id=LA0></span>Ошибка2. Выход за пределы радиуса.";
+document.getElementById("log_box_0").innerHTML="<span id=LA0></span>РћС€РёР±РєР°2. Р’С‹С…РѕРґ Р·Р° РїСЂРµРґРµР»С‹ СЂР°РґРёСѓСЃР°.";
 } // -------ERROR
 
 var log_text="<span onclick=\"Client.send('actNewMaps-GotoKletka='+"+global_data.base_items[id_to_abs[gid]].id+");\" "
@@ -2003,19 +2003,19 @@ return playHome("SpaceFadeIn","mp3","audio_rr");
 }
 }
 
-if(global_data.my_group.napr<i) { // По часовой
+if(global_data.my_group.napr<i) { // РџРѕ С‡Р°СЃРѕРІРѕР№
 var my_test_turn=i-global_data.my_group.napr;
 for(var j=0; j<my_test_turn; j++) {
-var log_text="По часовой "+my_test_turn+"<br>";
+var log_text="РџРѕ С‡Р°СЃРѕРІРѕР№ "+my_test_turn+"<br>";
 log_msg(log_text,0);
 Client.send("actNewMaps-ChangeNapr=1");
 tCtrl=parseInt(global_data.my_group.napr,10)+1;
 return tmID[0]=setTimeout("TurnCheck(tCtrl,2)",500);
 }
-} else if(global_data.my_group.napr>i) { // Против часовой
+} else if(global_data.my_group.napr>i) { // РџСЂРѕС‚РёРІ С‡Р°СЃРѕРІРѕР№
 var my_test_turn=global_data.my_group.napr-i;
 for(var j=0; j<my_test_turn; j++) {
-var log_text="Против часовой "+my_test_turn+"<br>";
+var log_text="РџСЂРѕС‚РёРІ С‡Р°СЃРѕРІРѕР№ "+my_test_turn+"<br>";
 log_msg(log_text,0);
 Client.send("actNewMaps-ChangeNapr=0");
 tCtrl=parseInt(global_data.my_group.napr,10)-1;
@@ -2029,14 +2029,14 @@ try {
 if(my_test_five==1 && !my_good_event) { // BUILD-FIVE-CELL
 document.getElementById("mapFiveCell_"+global_data.base_items[id_to_abs[gid]].id).title=""
 +my_find_lost;
-document.getElementById("mapFiveCell_"+global_data.base_items[id_to_abs[gid]].id).style.backgroundColor="white"; // Моя клетка
+document.getElementById("mapFiveCell_"+global_data.base_items[id_to_abs[gid]].id).style.backgroundColor="white"; // РњРѕСЏ РєР»РµС‚РєР°
 } else if(my_test_five==1) {
 document.getElementById("mapFiveCell_"+global_data.base_items[id_to_abs[gid]].id).title=""
 +my_find_lost;
-document.getElementById("mapFiveCell_"+global_data.base_items[id_to_abs[gid]].id).style.backgroundColor="lightpink"; // Моя клетка
+document.getElementById("mapFiveCell_"+global_data.base_items[id_to_abs[gid]].id).style.backgroundColor="lightpink"; // РњРѕСЏ РєР»РµС‚РєР°
 }
 } catch (e) {
-document.getElementById("log_box_0").innerHTML="<span id=LA0></span>Ошибка3. Выход за пределы радиуса.";
+document.getElementById("log_box_0").innerHTML="<span id=LA0></span>РћС€РёР±РєР°3. Р’С‹С…РѕРґ Р·Р° РїСЂРµРґРµР»С‹ СЂР°РґРёСѓСЃР°.";
 } // -------ERROR
 
 if(my_test_five==0) {
@@ -2058,13 +2058,13 @@ document.getElementById("infob").innerHTML="CAPCHA:"
 +"EventWait:"+global_data.wait_event;
 return tmID[1]=setTimeout("newClientForestTest(3)",1000);
 }
-var my_bad_event=/Вы травмированы(.+)|(.+)Вы вывихнули руку/.test(document.getElementById("modal_form").innerHTML);
+var my_bad_event=/Р’С‹ С‚СЂР°РІРјРёСЂРѕРІР°РЅС‹(.+)|(.+)Р’С‹ РІС‹РІРёС…РЅСѓР»Рё СЂСѓРєСѓ/.test(document.getElementById("modal_form").innerHTML);
 if(my_bad_event) {
 var log_text=""
 +"<span id=\"hif\">"
 +"<img border=\"0\" src=\"img/magic/koleka.gif\" "
 +"onload=\"frames['persrefr'].location='mapupdate.html?xdac='+Math.random();"
-+"top.frames[1].document.getElementById('dinjcell').innerHTML='<table><td></td><td>осталось</td><td>5m</td></table>';"
++"top.frames[1].document.getElementById('dinjcell').innerHTML='<table><td></td><td>РѕСЃС‚Р°Р»РѕСЃСЊ</td><td>5m</td></table>';"
 +"setTimeout('R(3)',100);"
 +"document.getElementById('hif').innerHTML='<img border=0 src=img/magic/koleka.gif width=14 height=14>';"
 +"\" width=\"14\" height=\"14\"></span><span id=\"info_hand1\"></span><br>"
@@ -2074,11 +2074,11 @@ document.getElementById("modal_form").innerHTML="NaN";
 newClientForestTest("work");
 return playHome("call_in","mp3","audio_ff");
 }
-var my_bad_event=/Вы должны иметь в руках(.+)/.test(document.getElementById("modal_form").innerHTML);
+var my_bad_event=/Р’С‹ РґРѕР»Р¶РЅС‹ РёРјРµС‚СЊ РІ СЂСѓРєР°С…(.+)/.test(document.getElementById("modal_form").innerHTML);
 if(my_bad_event) {
 var log_text=""
 +"<span id=\"hif\">"
-+"<a href=\"javascript:void(0);\" onclick=\"R(0);R(1);frames['handforest'].location.href='bag_type_17.html';\" title=\"Инструменты\">"
++"<a href=\"javascript:void(0);\" onclick=\"R(0);R(1);frames['handforest'].location.href='bag_type_17.html';\" title=\"РРЅСЃС‚СЂСѓРјРµРЅС‚С‹\">"
 +"<img border=\"0\" src=\"https://"+hostname_oil+"/img/arrow/handforest.gif\" "
 +"onload=\"if(RHandUp==1){R(0);R(1);frames['handforest'].location.href='bag_type_17.html';}"
 +"\" width=\"28\" height=\"14\"></a></span><br>"
@@ -2091,7 +2091,7 @@ return playHome("call_in","mp3","audio_ff");
 newClientForestTest(6);
 for(i in RadiusCraftAttack) {
 if(RadiusCraftAttack[i]["id"]==my_resource_id || my_resource_id==-1) {
-if(global_data.abs_poses[RadiusCraftAttack[i]["direct"]]) { // Поиск цели
+if(global_data.abs_poses[RadiusCraftAttack[i]["direct"]]) { // РџРѕРёСЃРє С†РµР»Рё
 if(checkMainResource(RadiusCraftAttack[i]["direct"],0)) { // ___CHECK_RES___
 if(global_data.my_group.napr==i && global_data.wait_event>=3) { // WAIT
 work_dt++;
@@ -2106,11 +2106,11 @@ return tmID[1]=setTimeout("newClientForestTest(3)",1000);
 }
 if(my_test_five==1) work_dt=0;
 if(global_data.my_group.napr==i && global_data.wait_event==0 ||
-   global_data.my_group.napr==i && global_data.wait_event==undefined) { // КОПАЙ
-if(persIframe.document.getElementById("IMG_rarm").title!=RTitle) { // нет инструмента
+   global_data.my_group.napr==i && global_data.wait_event==undefined) { // РљРћРџРђР™
+if(persIframe.document.getElementById("IMG_rarm").title!=RTitle) { // РЅРµС‚ РёРЅСЃС‚СЂСѓРјРµРЅС‚Р°
 var log_text=""
 +"<span id=\"hif\">"
-+"<a href=\"javascript:void(0);\" onclick=\"R(0);R(1);frames['handforest'].location.href='bag_type_17.html';\" title=\"Инструменты\">"
++"<a href=\"javascript:void(0);\" onclick=\"R(0);R(1);frames['handforest'].location.href='bag_type_17.html';\" title=\"РРЅСЃС‚СЂСѓРјРµРЅС‚С‹\">"
 +"<img border=\"0\" src=\"https://"+hostname_oil+"/img/arrow/handforest.gif\" "
 +"onload=\"if(RHandUp==1){R(0);R(1);frames['handforest'].location.href='bag_type_17.html';}"
 +"\" width=\"28\" height=\"14\"></a></span><br>"+RTitle+"<br>";
@@ -2140,7 +2140,7 @@ newClientForestTest("work");
 if(my_test_five==1) { // five-go
 setTimeout("if(!document.getElementById('capchacode'))document.getElementById('overlay').click();",3000);
 for(w in RadiusCraftAttack) { // test-five-go
-if(global_data.abs_poses[RadiusCraftAttack[w]["direct"]] && RadiusCraftAttack[w]["flg"]<=0) { // Поиск цели
+if(global_data.abs_poses[RadiusCraftAttack[w]["direct"]] && RadiusCraftAttack[w]["flg"]<=0) { // РџРѕРёСЃРє С†РµР»Рё
 if(checkMainResource(RadiusCraftAttack[w]["direct"],1)) { // ___CHECK_RES___
 document.getElementById("log_work").title="five-go-search-"+w;
 document.getElementById("modal_form").innerHTML="Search";
@@ -2152,7 +2152,7 @@ log_msg(log_text,0);
 return tmID[0]=setTimeout("newClientForestTest(1)", 1000); // five-go-move
 } // end-five-go
 }}
-} // выход из цикла
+} // РІС‹С…РѕРґ РёР· С†РёРєР»Р°
 
 playHome("call_in","mp3","audio_ff");
 my_resource_id=0;
@@ -2164,18 +2164,18 @@ if(my_test_five==1) { // BUILD-FIVE-MAP
 document.getElementById("log_box_0").innerHTML="<span id=LA0></span>MAP-FIVE-CELL";
 BuildMapFiveCell(0);
 }
-// Стартовые параметры FIVE
+// РЎС‚Р°СЂС‚РѕРІС‹Рµ РїР°СЂР°РјРµС‚СЂС‹ FIVE
 for(i in rcaFiveID) { // null rcaFiveID
 if(rcaFiveID[i]!=1) {
 rcaFiveID[i]=0;
 }}
 for(i in rcaFiveCell) {
-if(global_data.abs_poses[rcaFiveCell[i]]) { // Поиск цели
+if(global_data.abs_poses[rcaFiveCell[i]]) { // РџРѕРёСЃРє С†РµР»Рё
 if(checkMainResource(rcaFiveCell[i],1)) { // ___CHECK_RES___
 
 for(j in MyCellCraftDone) { // my_cell_craft_check
 if(MyCellCraftDone[j]==global_data.base_items[rcaFiveCell[i]].id) {
-rcaFiveSearchID[global_data.base_items[rcaFiveCell[i]].id]=1; // пропустить поиск
+rcaFiveSearchID[global_data.base_items[rcaFiveCell[i]].id]=1; // РїСЂРѕРїСѓСЃС‚РёС‚СЊ РїРѕРёСЃРє
 BuildMapFiveCell(2,rcaFiveCell[i]);
 my_cell_craft_check=1;
 break;
@@ -2186,14 +2186,14 @@ if(my_cell_craft_check!=1) {
 rcaFiveID[i]=global_data.base_items[rcaFiveCell[i]].id;
 if(my_test_five==1) { // FIVE-ON
 BuildMapFiveCell(1,rcaFiveCell[i]);
-document.getElementById("mapFiveCell_"+global_data.base_items[id_to_abs[gid]].id).title="ЦЕНТР";
-document.getElementById("mapFiveCell_"+global_data.base_items[id_to_abs[gid]].id).style.backgroundColor="red"; // Моя клетка
+document.getElementById("mapFiveCell_"+global_data.base_items[id_to_abs[gid]].id).title="Р¦Р•РќРўР ";
+document.getElementById("mapFiveCell_"+global_data.base_items[id_to_abs[gid]].id).style.backgroundColor="red"; // РњРѕСЏ РєР»РµС‚РєР°
 my_test_five_center=global_data.base_items[id_to_abs[gid]].id;
 var log_text=i+":<span id=FivePoint_"+global_data.base_items[rcaFiveCell[i]].id
 +" onclick=\"Client.send('actNewMaps-GotoKletka='+"+global_data.base_items[rcaFiveCell[i]].id+");\" "
 +my_element_hover_0+">"+global_data.base_items[rcaFiveCell[i]].id+"</span><br>";
 log_msg(log_text,0); // Log-five
-MyCellCraftDone[MyCellCraftDone.length]=global_data.base_items[rcaFiveCell[i]].id; // Добавить клетку маршрута
+MyCellCraftDone[MyCellCraftDone.length]=global_data.base_items[rcaFiveCell[i]].id; // Р”РѕР±Р°РІРёС‚СЊ РєР»РµС‚РєСѓ РјР°СЂС€СЂСѓС‚Р°
 }
 }
 my_cell_craft_check=0;
@@ -2201,13 +2201,13 @@ my_cell_craft_check=0;
 }
 
 var rcaFiveID_count=0;
-for(i in rcaFiveID) { // нет не проверенных клеток
+for(i in rcaFiveID) { // РЅРµС‚ РЅРµ РїСЂРѕРІРµСЂРµРЅРЅС‹С… РєР»РµС‚РѕРє
 rcaFiveID_count+=rcaFiveID[i];
 }
 if(rcaFiveID_count==1) {
 if(my_test_five==1) {
 document.getElementById("log_box_0").innerHTML="<span id=LA0></span>"
-+"<span style=\"color:lavender;\">В этом радиусе все клетки проверены.</span>";
++"<span style=\"color:lavender;\">Р’ СЌС‚РѕРј СЂР°РґРёСѓСЃРµ РІСЃРµ РєР»РµС‚РєРё РїСЂРѕРІРµСЂРµРЅС‹.</span>";
 }
 newClientForestTest("search");
 if(my_test_five==1) playHome("call_in","mp3","audio_ff");
@@ -2232,9 +2232,9 @@ document.getElementById("infob").innerHTML="SEARCH:"+Math.round(Math.random()*22
 return tmID[0]=setTimeout("newClientForestTest(5)", 1000);
 }}
 var my_good_event=/NaN/.test(document.getElementById("modal_form").innerHTML);
-var my_good_event2=/так же/.test(document.getElementById("modal_form").innerHTML);
+var my_good_event2=/С‚Р°Рє Р¶Рµ/.test(document.getElementById("modal_form").innerHTML);
 if(!my_good_event) {
-if(my_good_event2) {playHome("gull","mp3","audio_ff");} // двойной эвент
+if(my_good_event2) {playHome("gull","mp3","audio_ff");} // РґРІРѕР№РЅРѕР№ СЌРІРµРЅС‚
 if(sNumCtrl.step!=sNumCtrl.stop) {
 var log_text=document.getElementById("modal_form").innerHTML+"<br>";
 log_msg(log_text,0);
@@ -2268,19 +2268,19 @@ sNumCtrl.step++;
 return tmID[0]=setTimeout("newClientForestTest(5)", 1500);
 }
 
-if(global_data.my_group.napr<i) { // По часовой
+if(global_data.my_group.napr<i) { // РџРѕ С‡Р°СЃРѕРІРѕР№
 var my_test_turn=i-global_data.my_group.napr;
 for(var j=0; j<my_test_turn; j++) {
-var log_text="По часовой "+my_test_turn+"<br>";
+var log_text="РџРѕ С‡Р°СЃРѕРІРѕР№ "+my_test_turn+"<br>";
 log_msg(log_text,0);
 Client.send("actNewMaps-ChangeNapr=1");
 tCtrl=parseInt(global_data.my_group.napr,10)+1;
 return tmID[0]=setTimeout("TurnCheck(tCtrl,5)",500);
 }
-} else if(global_data.my_group.napr>i) { // Против часовой
+} else if(global_data.my_group.napr>i) { // РџСЂРѕС‚РёРІ С‡Р°СЃРѕРІРѕР№
 var my_test_turn=global_data.my_group.napr-i;
 for(var j=0; j<my_test_turn; j++) {
-var log_text="Против часовой "+my_test_turn+"<br>";
+var log_text="РџСЂРѕС‚РёРІ С‡Р°СЃРѕРІРѕР№ "+my_test_turn+"<br>";
 log_msg(log_text,0);
 Client.send("actNewMaps-ChangeNapr=0");
 tCtrl=parseInt(global_data.my_group.napr,10)-1;
@@ -2288,10 +2288,10 @@ return tmID[0]=setTimeout("TurnCheck(tCtrl,5)",500);
 }}
 
 }
-} // выход из цикла
+} // РІС‹С…РѕРґ РёР· С†РёРєР»Р°
 } // end-a-5
 if(a==6) {
-var myPoses=id_to_abs[gid]; // Моя клетка
+var myPoses=id_to_abs[gid]; // РњРѕСЏ РєР»РµС‚РєР°
 RadiusCraftAttack[1]["direct"]=myPoses-Rca_Cell[myPoses]["cell"][0];
 RadiusCraftAttack[2]["direct"]=myPoses-Rca_Cell[myPoses]["cell"][1];
 RadiusCraftAttack[3]["direct"]=myPoses+Rca_Cell[myPoses]["cell"][2];

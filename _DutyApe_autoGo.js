@@ -11,8 +11,8 @@ var startKraft1TimeoutId = null,
     changeDirectionTimeoutId = null;
 var ResEnd = 0;
 
-var sellTrav = [76, 78, 81, 87, 90, 95]; // 76 сундук
-var sellTravTitle = ["Бессмертник","Дуб","Клен","Первоцвет","Шалфей"];
+var sellTrav = [76, 78, 81, 87, 90, 95]; // 76 СЃСѓРЅРґСѓРє
+var sellTravTitle = ["Р‘РµСЃСЃРјРµСЂС‚РЅРёРє","Р”СѓР±","РљР»РµРЅ","РџРµСЂРІРѕС†РІРµС‚","РЁР°Р»С„РµР№"];
 var sellTravMiss = [78, 81, 87, 95];
 var ChangeNapr = 0;
 var marshrut = [];
@@ -56,9 +56,9 @@ var log_text=""
 +"background-color:#FFEEC0;border:dashed 1px silver;"
 +"margin-top:155px;margin-left:1px;padding-left:2px;padding-bottom:2px;"
 +"cursor:hand;cursor:pointer;position:absolute;\" "
-+my_element_hover_2+">Создать</div>"
++my_element_hover_2+">РЎРѕР·РґР°С‚СЊ</div>"
 +"<table border=0 width=100% height=100%><tr><td width=100% style=text-align:center;>"
-+"<strong>Маршрут движения</strong><br>"
++"<strong>РњР°СЂС€СЂСѓС‚ РґРІРёР¶РµРЅРёСЏ</strong><br>"
 +"<textarea id=\"newCoorsList\" style=\"width:140px;height:130px;font-size:8pt;padding-left:2px;"
 +"background-color:#FFEEC0;overflow:auto;resize:none;\" placeholder=\" x:y \n x:y \n ...\">"
 +"</textarea>"
@@ -68,20 +68,20 @@ var log_text=""
 +"background-color:#FFEEC0;border:solid 1px black;cursor:pointer;position:absolute;overflow:hidden;\">"
 +"<input type=\"text\" id=\"mypos\" value=\"\" style=\"width:52px;height:12px;font-size:7pt;"
 +"margin-top:0px;margin-left:0px;margin-bottom:0px;padding-top:0px;padding-left:1px;padding-bottom:0px;"
-+"background-color:#FFEEC0;border:1px solid #FFEEC0;\" placeholder=\"Здесь X:Y\">"
++"background-color:#FFEEC0;border:1px solid #FFEEC0;\" placeholder=\"Р—РґРµСЃСЊ X:Y\">"
 +"</div>"
 +"<div style=\"margin-left:54px;margin-top:80px;width:52px;height:14px;padding:0px;"
 +"background-color:#FFEEC0;border:solid 1px black;cursor:pointer;position:absolute;overflow:hidden;\">"
 +"<input type=\"text\" id=\"selpos\" value=\"\" style=\"margin:0px;width:52px;height:12px;font-size:7pt;"
 +"margin-top:0px;margin-left:0px;margin-bottom:0px;padding-top:0px;padding-left:1px;padding-bottom:0px;"
-+"background-color:#FFEEC0;border:1px solid #FFEEC0;\" placeholder=\"Курсор X:Y\" "
++"background-color:#FFEEC0;border:1px solid #FFEEC0;\" placeholder=\"РљСѓСЂСЃРѕСЂ X:Y\" "
 +"onmouseover=\"this.focus();this.select()\">"
 +"</div>"
 +"<div style=\"margin-left:54px;margin-top:0px;width:52px;height:14px;padding:0px;"
 +"background-color:#FFEEC0;border:solid 1px black;cursor:pointer;position:absolute;overflow:hidden;\">"
 +"<input type=\"text\" id=\"destinationXY\" value=\"\" style=\"width:52px;height:12px;font-size:7pt;"
 +"margin-top:0px;margin-left:0px;margin-bottom:0px;padding-top:0px;padding-left:1px;padding-bottom:0px;"
-+"color:blue;background-color:#FFEEC0;border:1px solid #FFEEC0;\" placeholder=\"Куда X:Y\" title=\"Куда X:Y\" "
++"color:blue;background-color:#FFEEC0;border:1px solid #FFEEC0;\" placeholder=\"РљСѓРґР° X:Y\" title=\"РљСѓРґР° X:Y\" "
 +"onmouseover=\"this.focus();this.select()\">"
 +"</div>"
 +"<div id=\"destGoBtn\" style=\"margin-left:-1px;margin-top:0px;width:25px;height:13px;font-size:8pt;"
@@ -93,19 +93,19 @@ var log_text=""
 +"<div id=\"routePointsCount\" style=\"margin-left:29px;margin-top:0px;width:20px;height:13px;"
 +"padding-top:1px;padding-left:2px;cursor:pointer;position:absolute;overflow:hidden;"
 +"background-color:#FFEEC0;border:solid 1px black;\" "
-+"onclick=\"showModalToAddPoints()\" "+my_element_hover_1+" title=\"Маршрут движения\">"
++"onclick=\"showModalToAddPoints()\" "+my_element_hover_1+" title=\"РњР°СЂС€СЂСѓС‚ РґРІРёР¶РµРЅРёСЏ\">"
 +"0"
 +"</div>"
 +"<div id=\"distansGo\" style=\"margin-top:18px;width:105px;height:10px;font-size:7pt;"
-+"background-color:#D4D0C8;border:1px solid #D4D0C8;overflow:hidden;\" title=\"Расстояние до координат\">"
++"background-color:#D4D0C8;border:1px solid #D4D0C8;overflow:hidden;\" title=\"Р Р°СЃСЃС‚РѕСЏРЅРёРµ РґРѕ РєРѕРѕСЂРґРёРЅР°С‚\">"
 +"-"
 +"</div>"
 +"<div id=\"coorsGo\" style=\"width:105px;font-size:7pt;"
-+"background-color:white;border:1px solid white;\" title=\"Шаги\">"
++"background-color:white;border:1px solid white;\" title=\"РЁР°РіРё\">"
 +"-"
 +"</div>"
 +"<div id=\"mcGo\" style=\"width:105px;font-size:7pt;"
-+"background-color:white;border:1px solid white;box-shadow:0 0 10px rgba(0,0,0,0.5);\" title=\"Находки\">"
++"background-color:white;border:1px solid white;box-shadow:0 0 10px rgba(0,0,0,0.5);\" title=\"РќР°С…РѕРґРєРё\">"
 +"<span id=LA5>-</span>"
 +"</div>";
 log_msg(log_text,4);
@@ -128,7 +128,7 @@ if(ph_count==14) return;
 setTimeout("phCount()",1000);
 }
 
-// фича с присасыванием к чату и его обработка
+// С„РёС‡Р° СЃ РїСЂРёСЃР°СЃС‹РІР°РЅРёРµРј Рє С‡Р°С‚Сѓ Рё РµРіРѕ РѕР±СЂР°Р±РѕС‚РєР°
 chatIframeWin.Client.decode = function(e) {
     var str = JSON.parse(e);
     pars_log(str);
@@ -204,7 +204,7 @@ function toggleDestGo() {
 function getReadableTime(ms) {
     var minutes = Math.floor(ms / 60 / 1000);
     var seconds = Math.floor(ms / 1000) - minutes * 60;
-    return minutes + " мин. " + seconds + " сек.";
+    return minutes + " РјРёРЅ. " + seconds + " СЃРµРє.";
 }
 function getRandomInt(min, max, isLong) {
     if (isLong) {
@@ -220,7 +220,7 @@ function getRandomInt(min, max, isLong) {
     } else {
         timeshift = Math.floor(Math.random() * (max - min + 1)) + min;
     }
-    console.log("Задержка - "+getReadableTime(timeshift));
+    console.log("Р—Р°РґРµСЂР¶РєР° - "+getReadableTime(timeshift));
     TimeShiftShow = true;
     return timeshift;
 }
@@ -255,8 +255,8 @@ function autoGoFunc(destinationX, destinationY) {
                 if(sellTravTitle.indexOf(grassTitle)>=0) lootColor="green";
                 var log_text="<span style=color:blue>"+autoGoCount+"</span>:";
                 log_msg(log_text+"<strong style=color:"+lootColor+";>"+grassTitle+" "+travGox+":"+travGoy+"</strong><br>",5);
-                if(grassTitle=="Сундук") playHome("message_mail","mp3","audio");
-                if(grassTitle=="Клен" || grassTitle=="Дуб") {
+                if(grassTitle=="РЎСѓРЅРґСѓРє") playHome("message_mail","mp3","audio");
+                if(grassTitle=="РљР»РµРЅ" || grassTitle=="Р”СѓР±") {
                 playHome("geo_success","mp3","audio_rr");
                 } else if(lootColor=="green"){playHome("geo_fail","mp3","audio_rr");}
             }
@@ -300,14 +300,14 @@ function autoGoFunc(destinationX, destinationY) {
     to4kaGoY = myGroupY + (signY * shagY);
     autoGoCount++;
     var log_text="<span id=SmokeBreak></span><span style=color:blue>"+autoGoCount+"</span>:";
-    document.getElementById("coorsGo").innerHTML=log_text+"След.т. "+to4kaGoX+":"+to4kaGoY+"<br>";
+    document.getElementById("coorsGo").innerHTML=log_text+"РЎР»РµРґ.С‚. "+to4kaGoX+":"+to4kaGoY+"<br>";
 
     var to4ka = to4kaGoX + (to4kaGoY - 1) * 6000;
     if (to4kaGoX === destinationX && to4kaGoY === destinationY && goToTrav === false) {
         var tmpMarshT = marshrut.shift();
         if (tmpMarshT === undefined) {
             autoGoCount=0;
-            document.getElementById("coorsGo").innerHTML="<b>СТОП ходилка!</b><br>"
+            document.getElementById("coorsGo").innerHTML="<b>РЎРўРћРџ С…РѕРґРёР»РєР°!</b><br>"
             +document.getElementById("coorsGo").innerHTML;
             playHome("research_complete","mp3","audio");
             toggleDestGo();
@@ -326,7 +326,7 @@ function autoGoFunc(destinationX, destinationY) {
     playHome("Select2","mp3","audio_ff");
     }
     setTimeout(function() {
-        sendWSMessage(to4ka, "autoGoFunc:: точка равна 0");
+        sendWSMessage(to4ka, "autoGoFunc:: С‚РѕС‡РєР° СЂР°РІРЅР° 0");
     }, getRandomInt(300, 800, false));
 }
 
@@ -397,7 +397,7 @@ function SearchLog(obj) {
                             || (to4kaGoX === 0 && to4kaGoY === 0)
                         ) {
                             var autoGoResDiv = document.getElementById("distansGo");
-                            autoGoResDiv.innerHTML = "O: по х:"+(destGox-obj.my_gr.posx)+", по у:"+(destGoy-obj.my_gr.posy);
+                            autoGoResDiv.innerHTML = "O: РїРѕ С…:"+(destGox-obj.my_gr.posx)+", РїРѕ Сѓ:"+(destGoy-obj.my_gr.posy);
                             autoGoFunc(destGox, destGoy);
                         }
                     }
@@ -434,7 +434,7 @@ function pars_log(str) {
         var deltaX = Math.abs(resPosX - myGrPosX);
         var deltaY = Math.abs(resPosY - myGrPosY);
         if (deltaX < 2 && deltaY < 2 && (type <= 75 || type >= 98)) {
-            ResEndText = "<strong>Ресурс "+imgBT[type].title+" закончился</strong> "+getPersLocationHtml();
+            ResEndText = "<strong>Р РµСЃСѓСЂСЃ "+imgBT[type].title+" Р·Р°РєРѕРЅС‡РёР»СЃСЏ</strong> "+getPersLocationHtml();
             ResEnd = 1;
             if (resAutoGo) {
                 //16
@@ -443,7 +443,7 @@ function pars_log(str) {
         if (deltaX < 3 && deltaY < 3 && type > 75 && type < 98) {
             autoGoCount++;
             ResEndText = "<span style=color:blue>"+autoGoCount+"</span>:"
-             +"<strong>"+imgBT[type].title+" забрал </strong>"+getPersLocationHtml()+"<br>";
+             +"<strong>"+imgBT[type].title+" Р·Р°Р±СЂР°Р» </strong>"+getPersLocationHtml()+"<br>";
             log_msg(ResEndText,5);
             goToTrav = false;
             var itemIndex = indexTrav.indexOf(str.item.id);
@@ -461,29 +461,29 @@ function pars_log(str) {
     }
 
     if((t !== "" && t !== undefined) && group_id === my_gr_id) {
-        if((t === "Ничего не найдено" || t.indexOf("в радиусе 5 шагов от Вас") > 0) && startSearchTimeoutId === null) {
+        if((t === "РќРёС‡РµРіРѕ РЅРµ РЅР°Р№РґРµРЅРѕ" || t.indexOf("РІ СЂР°РґРёСѓСЃРµ 5 С€Р°РіРѕРІ РѕС‚ Р’Р°СЃ") > 0) && startSearchTimeoutId === null) {
             //14
-        } else if(t.indexOf("а также") > 0 && startSearchTimeoutId === null) {
+        } else if(t.indexOf("Р° С‚Р°РєР¶Рµ") > 0 && startSearchTimeoutId === null) {
             //13
-        } else if(t.indexOf("прямо перед Вами") > 0 && startKraft1TimeoutId === null) {
+        } else if(t.indexOf("РїСЂСЏРјРѕ РїРµСЂРµРґ Р’Р°РјРё") > 0 && startKraft1TimeoutId === null) {
             //12
-        } else if(t.indexOf("слева от Вас") > 0 && changeDirectionTimeoutId === null) {
+        } else if(t.indexOf("СЃР»РµРІР° РѕС‚ Р’Р°СЃ") > 0 && changeDirectionTimeoutId === null) {
             if (resAutoGo) {
                 //11
             } else {
                 //10
             }
-        } else if(t.indexOf("справа от Вас") > 0 && changeDirectionTimeoutId === null) {
+        } else if(t.indexOf("СЃРїСЂР°РІР° РѕС‚ Р’Р°СЃ") > 0 && changeDirectionTimeoutId === null) {
             if (resAutoGo) {
                 //9
             } else {
                 //8
             }
-        } else if(t.indexOf("вывихнули") > 0 && autoJob) {
+        } else if(t.indexOf("РІС‹РІРёС…РЅСѓР»Рё") > 0 && autoJob) {
             //7
-        } else if(t.indexOf("Топор лесоруба") > 0 && autoJob) {
+        } else if(t.indexOf("РўРѕРїРѕСЂ Р»РµСЃРѕСЂСѓР±Р°") > 0 && autoJob) {
             //6
-        } else if(t.indexOf("Кирка рудокопа") > 0 && autoJob) {
+        } else if(t.indexOf("РљРёСЂРєР° СЂСѓРґРѕРєРѕРїР°") > 0 && autoJob) {
             //5
         } else {
             //4
@@ -539,7 +539,7 @@ var myGroup = GD.my_group;
         var newPosition = myPosX+":"+myPosY;
         if(newPosition === currentPosition && attemptsToChangePosition >= maxAttepmtsForNewPosition) {
             // TODO: change new point and log error
-            var message = "<strong>Не смог сдвинуться с "+newPosition+"</strong><br>";
+            var message = "<strong>РќРµ СЃРјРѕРі СЃРґРІРёРЅСѓС‚СЊСЃСЏ СЃ "+newPosition+"</strong><br>";
             document.getElementById("SmokeBreak").innerHTML=message;
         } else {
             if (newPosition === currentPosition) {
@@ -559,7 +559,7 @@ var myGroup = GD.my_group;
                 var tmpPointId = tmpPointX + tmpPointY * 6000;
                 MyCursor(tmpPointId);
                 setTimeout(function() {
-                sendWSMessage(tmpPointId, "myTimer::tmpto4ka  равна 0! GO TO: "+tmpPointX+":"+tmpPointY);
+                sendWSMessage(tmpPointId, "myTimer::tmpto4ka  СЂР°РІРЅР° 0! GO TO: "+tmpPointX+":"+tmpPointY);
                 }, getRandomInt(300, 800, false));
             } else {
                 var destinationPoints = getDestinationPoint();
@@ -580,11 +580,11 @@ var myGroup = GD.my_group;
 
                     autoGoCount++;
                     var log_text="<span id=SmokeBreak></span><span style=color:blue>"+autoGoCount+"</span>:";
-                    document.getElementById("coorsGo").innerHTML=log_text+"След.т. "+to4kaGoX+"x"+to4kaGoY+"<br>";
+                    document.getElementById("coorsGo").innerHTML=log_text+"РЎР»РµРґ.С‚. "+to4kaGoX+"x"+to4kaGoY+"<br>";
                     var to4ka = to4kaGoX + (to4kaGoY - 1) * 6000;
                     MyCursor(to4ka);
                     setTimeout(function() {
-                    sendWSMessage(to4ka, "myTimer::to4ka  равна 0!!! GO TO: "+to4kaGoX+":"+to4kaGoY);
+                    sendWSMessage(to4ka, "myTimer::to4ka  СЂР°РІРЅР° 0!!! GO TO: "+to4kaGoX+":"+to4kaGoY);
                     }, getRandomInt(300, 800, false));
                 }
             }
